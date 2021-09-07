@@ -1,0 +1,36 @@
+@keyframes change-color{
+    /* from{background-color: red;}
+    to{background-color: blue;} */
+
+    0%{background-color: red;top: 10px; left: 10px;}
+    20%{background-color: orange;top: 30px; left: 30px;}
+    40%{background-color: rgb(238, 255, 0);top: 50px; left: 50px;}
+    60%{background-color: rgb(9, 255, 0);top: 70px; left: 70px;}
+    80%{background-color: rgb(0, 26, 255);top: 90px; left: 90px;}
+    100%{background-color: rgb(255, 0, 242);top: 110px; left: 110px;}
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    position: relative;
+}
+
+/* .box-animation{
+    animation-name:change-color;
+    animation-duration:5s;
+    animation-iteration-count: 2;
+    /* 無限次 */
+    /* animation-iteration-count: infinite; */
+    /* animation-delay: 2s; */
+/* } */ 
+
+.box-animation:hover{
+    animation-name:change-color;
+    animation-duration:5s;
+    animation-iteration-count: 2;
+    /* 無限次 */
+    /* animation-iteration-count: infinite; */
+    /* animation-delay: 2s; */
+}
